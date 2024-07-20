@@ -1,0 +1,65 @@
+.weatherContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(29, 21, 21);
+    margin-bottom: 100px;
+}
+.weatherTemp ,.weatherLocation,.windRate ,.text,.humidityPercent{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.cityInput {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    padding: 20xp;
+    font-size: 25px;
+    font-weight: 500;
+}
+.searchButton {
+    height: 25px;
+    width: 70px;
+    background-color: rgb(218, 51, 51);
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+}
+.data {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100px;
+    width: 200px;
+    background-color:  rgb(218, 51, 51);
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.data0 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 140px;
+    width: 220px;
+    background-color:  rgb(0, 0, 0);
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titel {
+    font-size: 40px;
+    margin: 15px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
